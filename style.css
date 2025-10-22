@@ -1,0 +1,68 @@
+body {
+  font-family: "Georgia", serif;
+  background: linear-gradient(to bottom, #dcd0ff, #fff);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #ffffffcc;
+  border-radius: 20px;
+  padding: 30px 40px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #4b3b83;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.question {
+  margin-bottom: 25px;
+}
+
+.option {
+  display: block;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #4b3b83;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto 0;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #6b52c4;
+}
+
+.hidden {
+  display: none;
+}
+
+#result {
+  text-align: center;
+}
+
+#cityName {
+  font-size: 1.8em;
+  color: #4b3b83;
+}
