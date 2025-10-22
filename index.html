@@ -1,0 +1,27 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>¿Qué ciudad invisible eres?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>¿Qué ciudad invisible eres?</h1>
+    <p class="intro">Inspirado en <em>Las ciudades invisibles</em> de Italo Calvino</p>
+
+    <form id="quizForm">
+      <div id="quiz"></div>
+      <button type="submit" class="btn">Descubrir mi ciudad</button>
+    </form>
+
+    <div id="result" class="hidden">
+      <h2 id="cityName"></h2>
+      <p id="cityDesc"></p>
+      <button onclick="location.reload()" class="btn">Volver a intentarlo</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
